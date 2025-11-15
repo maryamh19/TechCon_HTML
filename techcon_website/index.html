@@ -6,53 +6,91 @@
     <meta name="description" content="TechCon 2024 - The premier technology conference for innovators, developers, and tech enthusiasts.">
     <title>TechCon 2024</title>
     <style>
-        /* Basic styling for clarity and accessibility */
         body {
-            font-family: Georgia, sans-serif;
+            font-family: georgia, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
             color: #333;
-            background-color: #f9f9f9;
+            background-color: #f4f4f4;
         }
+
         header {
-            background-color: #482c91;
-            color: rgb(202, 194, 255);
+            background-color: #3f367b;
+            color: rgb(220, 218, 255);
             padding: 1rem 2rem;
         }
+
         header h1 {
             margin: 0;
             font-size: 2rem;
         }
+
         nav {
             margin-top: 0.5rem;
         }
+
         nav a {
-            color: rgb(191, 198, 255);
+            color: rgb(210, 202, 255);
             text-decoration: none;
             margin-right: 1.5rem;
             font-weight: bold;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
+
         main {
             padding: 2rem;
         }
+
         section {
-            margin-bottom: 2rem;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 800px;
+            margin: 0 auto 2rem auto;
         }
+
+        section h2 {
+            color: #3f367b;
+            margin-top: 0;
+        }
+
+        p {
+            margin: 1rem 0;
+        }
+
         video {
             width: 100%;
-            max-width: 600px;
+            max-width: 100%;
             display: block;
             margin-top: 1rem;
+            border-radius: 8px;
         }
+
         footer {
-            background-color: #292b56;
+            background-color: #333;
             color: white;
             text-align: center;
             padding: 1rem 0;
+        }
+
+        @media (max-width: 600px) {
+            header, main {
+                padding: 1rem;
+            }
+
+            nav a {
+                display: block;
+                margin-bottom: 0.5rem;
+            }
+
+            section {
+                padding: 1rem;
+            }
         }
     </style>
 </head>
@@ -86,7 +124,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>Copyright &copy; 2024 TechCon. All rights reserved.</p>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
     </footer>
 
 </body>
